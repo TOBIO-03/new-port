@@ -8,10 +8,9 @@
 </head>
 <body>
 
-    <!-- HEADER -->
     <header class="header">
         <nav class="container nav">
-            <h1 class="logo">JR</h1>
+            <h1 class="logo"><span>J</span>R</h1>
             <ul class="nav-links">
                 <li><a href="#about-section">About</a></li>
                 <li><a href="#services-section">Services</a></li>
@@ -22,22 +21,20 @@
 
         <div class="hero container">
             <h2>Hello, I'm <span>John Riche Marchan</span></h2>
-            <p>A Web Developer / Designer ready to build your next digital product.</p>
+            <p>A Growing Web Developer / Designer building modern digital products with care, creativity, and attention to detail.</p>
             <a href="#projects-section" class="btn">View My Work</a>
         </div>
     </header>
 
-    <!-- ABOUT -->
+    
     <section id="about-section" class="about-section container">
         <h2 class="section-title">About Me</h2>
         <p>
-            I am a passionate web developer specializing in creating modern, 
-            responsive, and user-friendly websites. My mission is to help 
-            businesses grow online with clean and high-performing digital products.
+          I am an aspiring web developer dedicated to creating simple, modern, and responsive websites. I’m constantly learning and working to improve my craft as I grow in the field.
         </p>
     </section>
 
-    <!-- SERVICES -->
+    
     <section id="services-section" class="services-section">
         <h2 class="section-title">My Services</h2>
         <div class="container services-grid">
@@ -56,39 +53,44 @@
         </div>
     </section>
 
-    <!-- PROJECTS -->
+   
     <section id="projects-section" class="projects-section container">
         <h2 class="section-title">Featured Projects</h2>
         <div class="projects-grid">
             <div class="project-card">
-                <img src="https://via.placeholder.com/400x250" alt="Project 1">
-                <h3>Project Title 1</h3>
-                <p>Short project description goes here.</p>
+                <img src="simple calsulator.png" alt="Project 1">
+                <h3>Simple Caculator</h3>
+                <p>A simple scientific calculator made with HTML, CSS, and JavaScript. You can do basic math, use trigonometry, and it has easy-to-use buttons.</p>
             </div>
 
             <div class="project-card">
-                <img src="https://via.placeholder.com/400x250" alt="Project 2">
-                <h3>Project Title 2</h3>
-                <p>Short project description goes here.</p>
+                <img src="dodge.png" alt="Project 2">
+                <h3>Dodge the fulling object</h3>
+                <p>Dodge the Falling Objects” is a simple reflex-based game where you control a player square at the bottom of the screen and move left or right to avoid colorful falling blocks. Your score increases the longer you survive without getting hit.</p>
             </div>
 
             <div class="project-card">
-                <img src="https://via.placeholder.com/400x250" alt="Project 3">
-                <h3>Project Title 3</h3>
-                <p>Short project description goes here.</p>
+                <img src="pos.png" alt="Project 3">
+                <h3>Nike POS System</h3>
+                <p>The “Nike Outlet POS System” is a clean and simple point-of-sale interface that lets users browse products, filter by category, add items to the cart, and view the total amount before proceeding to payment. It is designed for quick and efficient checkout in a retail setup.</p>
             </div>
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact-section" class="contact-section">
-        <h2 class="section-title">Contact Me</h2>
-        <div class="container contact-box">
-            <p>Email: <strong>john7marchan@gmail.com</strong></p>
-            <p>Phone: <strong>+639946781525</strong></p>
-            <p>Let's work together!</p>
-        </div>
-    </section>
+<section id="contact-section" class="contact-section" data-aos="fade-up">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="container contact-box">
+        <p>Email: <strong>john7marchan@gmail.com</strong></p>
+        <p>Phone: <strong>+639946781525</strong></p>
+        <p>Let's work together!</p>
+        <form action="submit_form.php" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
 
     <footer class="footer">
         <p>&copy; 2025 Your Name. All Rights Reserved.</p>
